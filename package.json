@@ -27,7 +27,7 @@
         "react-force-graph-3d": "^1.24.3",
         "react-ga4": "^2.1.0",
         "react-router-dom": "^6.27.0",
-        "react-scripts": "5.0.1",
+        "react-scripts": "^5.0.1",
         "react-table": "^7.8.0",
         "three": "^0.167.1",
         "three-spritetext": "^1.8.2",
@@ -38,7 +38,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "start-re": "react-app-rewired start",
-        "start": "react-scripts start",
+        "start": "react-app-rewired start",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
         "eject": "react-scripts eject"
