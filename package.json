@@ -37,8 +37,8 @@
     "scripts": {
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
-        "start": "react-app-rewired start",
-        "build": "CI=false react-app-rewired build",
+        "start": "react-scripts start",
+        "build": "CI=false react-scripts build",
         "test": "react-app-rewired test",
         "eject": "react-scripts eject"
     },
