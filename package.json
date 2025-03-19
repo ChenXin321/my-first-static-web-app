@@ -1,7 +1,6 @@
 {
     "name": "graphrag-visualizer",
     "version": "0.1.0",
-    "homepage": "https://noworneverev.github.io/graphrag-visualizer/",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.13.0",
@@ -38,7 +37,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "start": "react-scripts start",
-        "build": "CI=false react-scripts build",
+        "build": "react-scripts build",
         "test": "react-app-rewired test",
         "eject": "react-scripts eject"
     },
